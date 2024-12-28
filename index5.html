@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg p-3">
+    <div class="container">
+      <!-- User Profile -->
+      <a href="index5.html" style="text-decoration: none;">
+          <img src="./images/photo_2023-12-18_18-44-26.jpg" alt="Avatar Logo" style="width:60px;" class="rounded-pill">  
+          <p style="color: black;">Name <i class="fa-solid fa-chevron-down"></i>
+          </p>  
+      </a>
+      
+      <!-- Centered Navbar Links -->
+      <div class="d-flex gap-3">
+        <div class="text-center">
+          <i class="fa-solid fa-toggle-on fa-2xl"></i>
+          <p class="mb-0 small">الوضع</p>
+        </div>
+        <div class="text-center">
+          <i class="fa-regular fa-circle-question fa-2xl"></i>
+          <p class="mb-0 small">الدعم الفني</p>
+        </div>
+        <div class="text-center">
+          <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+          <p class="mb-0 small">العربة</p>
+        </div>
+        <div class="text-center">
+          <i class="fa-solid fa-bell fa-2xl"></i>
+          <p class="mb-0 small">الإشعارات</p>
+        </div>
+      </div>
+      
+      <!-- Logo -->
+      <a class="navbar-brand d-none d-md-block p-2 rounded" href="#">
+          <img src="./images/logo.png" alt="logo" style="width: 200px" />
+      </a>
+    </div>
+</nav>
+
+  <!-- Icons Grid -->
+   <div class="container">
+      <div class="icon-grid">
+    <a href="index7.html" style="text-decoration: none;">
+      <div class="icon-card">
+      <img src="./images/Faq.png" alt="FAQ Icon" />
+      <p>أسئلة تفاعلية</p>
+    </div>
+    </a>
+
+    <a href="index8.html" style="text-decoration: none;">
+      <div class="icon-card">
+      <img src="./images/Question.png" alt="Ask Icon" />
+      <p>اسأل المستر</p>
+    </div>
+    </a>
+    
+      <div class="icon-card">
+      <img src="./images/Books.png" alt="Books Icon" />
+      <p>الملازم</p>
+      </div>
+    
+    <a href="index3.html" style="text-decoration: none;">
+       <div class="icon-card">
+     <img src="./images/File.png" alt="Archive Icon" />
+      <p>أرشيف الدروس</p>
+    </div>
+    </a>
+
+    <div class="icon-card">
+       <img src="./images/Red card.png" alt="Instructions Icon" />
+      <p>تعليمات المجموعة</p>
+    </div>
+    
+    <div class="icon-card">
+       <img src="./images/Spreadsheet.png" alt="Schedule Icon" />
+      <p>جدول المحاضرات</p>
+    </div>
+
+    <a href="index4.html" style="text-decoration: none;">
+      <div class="icon-card">
+       <img src="./images/Question (1).png" alt="General Questions Icon" />
+      <p>أسئلة عامة</p>
+    </div>
+    </a>
+    
+    <a href="index6.html" style="text-decoration: none;">
+       <div class="icon-card">
+     <img src="./images/Chatbot.png" alt="Chatbot Icon" />
+      <p>المساعد الذكي</p>
+    </div>
+    </a>
+   
+  </div>
+   </div>
+
+
+  <div class="container" id="sec5">
+    <div class="row">
+      <!-- أول عنصر (يسار) -->
+      <div class="col-lg-4 col-md-6 mb-4 ">
+        <div class="item user-info ">
+          <h4 class="mb-5">Ahmed</h4>
+          <img src="images/photo_2023-12-18_18-44-26.jpg" alt="User Image">
+          <p>Sat/5 June | 3:30 pm</p>
+          <div class="user-actions">
+            <button>📞</button>
+            <button>✉️</button>
+            <button>➕</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ثاني عنصر (يمين) -->
+      <div class="col-lg-8 col-md-6 mb-1">
+        <div class="item qr-tips">
+          <h4 class="text-center">Helpful Tips</h4>
+          <img src="images/th.jpeg" alt="QR Code">
+          <p class="mb-3 text-center">QR Codeفي حال حدوث أي مشكلة، قم بتحميلها بالـ .</p>
+        </div>
+      </div>
+
+      <!-- العناصر الثالثة والرابعة (متساويين) -->
+      <div class="col-md-6 mb-4">
+        <div class="item password-change">
+          <h4 class="text-center mb-5">تعديل كلمة المرور</h4>
+          <input type="password" placeholder="كلمة المرور القديمة">
+          <input type="password" placeholder="كلمة المرور الجديدة">
+          <input type="password" placeholder="تأكيد كلمة المرور">
+          <button>تغيير كلمة المرور</button>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="item edit-profile">
+          <h4 class="text-center mb-2">تعديل حسابي</h4>
+          <input type="text" placeholder="الاسم">
+          <input type="text" placeholder="رقم التليفون">
+          <input type="text" placeholder="البريد الإلكتروني">
+          <input type="text" placeholder=" المجموعة">
+          <button>حفظ</button>
+        </div>
+      </div>
+
+      <!-- العنصر الأخير (يحتل العرض كله) -->
+      <div class="col-12">
+        <div class="itemstatistics">
+          <h4>إحصائياتي</h4>
+          <img src="images/ApexCharts.png" alt="">
+          <div class="stats-details">
+            <div class="stat-item one d-flex align-items-center ">
+              <p class="">60</p>
+              <h5 class="me-2">عدد مرات تسجيل الدخول الناجحة</h5>
+
+            </div>
+            <div class="stat-item two d-flex align-items-center ">
+              <p>12</p>
+              <h5 class="me-2">عدد الدروس المحملة</h5>
+
+            </div>
+            <div class="stat-item three d-flex align-items-center">
+              <p>12</p>
+              <h5 class="me-2">عددمرات دخول الامتحان</h5>
+
+            </div>
+            <div class="stat-item four d-flex align-items-center ">
+              <p>12</p>
+              <h5 class="me-2">متوسط دخول الامتحان الدروس المدفوعه</h5>
+
+            </div>
+            <div class="stat-item five d-flex align-items-center ">
+              <p>0</p>
+              <h5 class="me-2">متوسط تقييم الامتحان</h5>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
